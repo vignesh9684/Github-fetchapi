@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Border*/
+.Border {
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.Border a {
+    display: white;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.Border a:hover {
+    background: #f1f1f1;
+    color: black;
+}
+/* Border */
+
+/* logobar */
+#logobar {
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.logoIcon {
+    margin: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-wrap: wrap;
+}
+.logoIcon img {
+    height: 75px;
+    width: 200px;
+}
+/* logobar */
+
+#navbar {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(138, 113, 113, 0.664);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    border-radius: 10px;
+    background-color: rgba(65, 167, 25, 0.637);
+}
+#me {
+    background-color: rgba(55, 194, 20, 0.637);
+}
+/* navbar */
+/* pagination menu */
+.pagination-menu {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.pagination-menu button {
+    all: inherit;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination-menu button.active {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination-menu button:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+/* pagination menu */
+#script {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 80px; margin: 0;
+}
+/* */
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: left;
+    box-shadow: inset 5px 0 5px -5px #02131b;
+    font-style: italic;
+    color: #ee4d0e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    background-image: url('Image/background1.jpg');
+}
+
